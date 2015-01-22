@@ -2,7 +2,7 @@
 $i=0;
  $feature=array();
 foreach ($courseDetails->features as $features) {
-  echo $features->feature_title;
+ 
 	$feature[$i]['course_feature_id']=$features->course_feature_id;
 	$feature[$i]['feature_title']=$features->feature_title;
 	$feature[$i]['feature_content']=$features->feature_content;
